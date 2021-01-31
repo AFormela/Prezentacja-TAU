@@ -18,12 +18,12 @@ Początkowo JMeter był używany tylko do testowania aplikacji webowych i aplika
 - Możliwość integracji z Bean Shell i Selenium do testów automatycznych
 
 ## Instalacja JMeter
-1. Pobieramy archiwum z sekcji **Binaries** ze strony JMeter - [Pobierz][https://jmeter.apache.org/download_jmeter.cgi]
+1. Pobieramy archiwum z sekcji **Binaries** ze strony JMeter - [Pobierz](https://jmeter.apache.org/download_jmeter.cgi)
 2. W zależności od pobranej wersji sprawdzamy jakie są dla niej minimalne wymagania wobec wersji Java i instalujemy wskazaną wersję w razie potrzeby. Upewniamy się także, że zmienna środowiskowa 'JAVA_HOME' jest ustawiona i wskazuje na prawidłową wersję.
 3. Wypakowujemy pobrane archwium do wybranego przez nas folderu.
 4. Otwieramy JMeter UI za pomocą konsoli systemowej:
- - na Windowsie: przechodzimy do lokalizaji '<jmeter_location>\bin' i uruchamiamy jmeter.sh.
- - na Lnuxie/Macu: przechodzimy do lokalizaji '<jmeter_location>/bin' i uruchamiamy jmeter.sh.
+ - na Windowsie: przechodzimy do lokalizacji '<jmeter_location>\bin' i uruchamiamy jmeter.sh.
+ - na Lnuxie/Macu: przechodzimy do lokalizacji '<jmeter_location>/bin' i uruchamiamy jmeter.sh.
  
  Przykładowo:
  ![Console](./images/jmeter.png)
@@ -33,13 +33,13 @@ Jeśli otworzy nam się okno JMeter UI, to oznacza że instalacja przebiegła po
  ![JMeter window](./images/jmeter2.png)
 
  ## Zarządzanie pluginami
- 1. Ze strony [JMeter Plugins Manager][https://jmeter-plugins.org/wiki/PluginsManager/] pobieramy plik JAR.
+ 1. Ze strony [JMeter Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/) pobieramy plik JAR.
  2. Pobrany plik kopiujemy do katalogu, gdzie wcześniej zainstalowaliśmy JMeter: **lib/ext**.
  3. Ponownie uruchamiamy JMeter i w zakładce **Options** znajdziemy **Plugin Manager** skąd możemy pobrać dodatki przydatne podczas przeprowadzania testów wydajnościowych.
  
  ## Przykład użycia (Testplan)
 
-'<?xml version="1.0" encoding="UTF-8"?>
+```<?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="2.7" jmeter="2.12 r1636949">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
@@ -126,4 +126,5 @@ Jeśli otworzy nam się okno JMeter UI, to oznacza że instalacja przebiegła po
       </hashTree>
     </hashTree>
   </hashTree>
-</jmeterTestPlan>'
+</jmeterTestPlan>
+```
