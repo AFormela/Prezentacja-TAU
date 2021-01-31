@@ -40,7 +40,7 @@ Jeśli otworzy nam się okno JMeter UI, to oznacza że instalacja przebiegła po
  ## Przykład użycia (Testplan)
 
 ```<?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="2.7" jmeter="2.12 r1636949">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.41>
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
