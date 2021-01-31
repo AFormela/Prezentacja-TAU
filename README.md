@@ -26,4 +26,4 @@ Początkowo JMeter był używany tylko do testowania aplikacji webowych i aplika
  - na Lnuxie/Macu: przechodzimy do lokalizaji '<jmeter_location>/bin' i uruchamiamy jmeter.sh.
  
  Przykładowo:
- 
+ ![Console](./images/jmeter.png)
